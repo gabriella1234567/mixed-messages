@@ -1,4 +1,6 @@
-# 😾 Jungle Jabs | Random Insult Generator
+# 😾 Jungle Jabs - Random Insult Generator
+
+Live at https://mixed-messages-zeta.vercel.app/
 
 This is my first portfolio project for the Full Stack Engineer career path on Codecademy. I wanted to create something that would be funny and also allow me to practice mainly:
 
@@ -34,3 +36,14 @@ Features and functionalities that are not necessary for the project to function:
 - Animations for characters
 - Generate two sentences
 - Advanced CSS
+
+  ## Current State
+  Minimal viable product state has been achieved and can be viewed live at the provided link.
+  - [x] Arrays with words to enable use of Math.random() to point to a random index in the array to select a word
+  - [x] Basic HTML
+  - [x] Basic CSS
+  - [x] Button and event listener
+  - [] SVG characters
+  - [] Animations for characters
+  - [x] Generate two sentences
+  - [] Advanced CSS 

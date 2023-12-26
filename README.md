@@ -43,7 +43,7 @@ Features and functionalities that are not necessary for the project to function:
   - [x] Basic HTML
   - [x] Basic CSS
   - [x] Button and event listener
-  - [] SVG characters
-  - [] Animations for characters
+  - [ ] SVG characters
+  - [ ] Animations for characters
   - [x] Generate two sentences
-  - [] Advanced CSS 
+  - [ ] Advanced CSS 

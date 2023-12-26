@@ -8,8 +8,10 @@ This is my first portfolio project for the Full Stack Engineer career path on Co
 - Javascript
 - Animation
 - Modules
-  
-The idea of the project is to have the website look like a scene with two characters having a "fight", with buttons to generate a random insult for each character.
+
+Instructions are to build a message generator program. Every time a user runs a program, they should get a new, randomized output.
+
+My idea for the project is to have the website look like a scene with two characters having a fight, and buttons to generate a random insult for each character.
 
 ## Project Plan
 
@@ -38,12 +40,15 @@ Features and functionalities that are not necessary for the project to function:
 - Advanced CSS
 
 ## Current State
+
 Minimal viable product state has been achieved and can be viewed live at the provided link.
+
 - [x] Arrays with words to enable use of Math.random() to point to a random index in the array to select a word
-- [ ] - [x] Basic HTML
+- [x] Basic HTML
 - [x] Basic CSS
 - [x] Button and event listener
 - [ ] SVG characters
 - [ ] Animations for characters
 - [x] Generate two sentences
-- [ ] Advanced CSS 
+- [ ] Advanced CSS
+- [ ] Site is responsive and works on all devices

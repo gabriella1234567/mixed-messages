@@ -51,4 +51,4 @@ Minimal viable product state has been achieved and can be viewed live at the pro
 - [ ] Animations for characters
 - [x] Generate two sentences
 - [ ] Advanced CSS
-- [ ] Site is responsive and works on all devices
+- [x] Site is responsive and works on all devices

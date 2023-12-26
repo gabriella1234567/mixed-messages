@@ -11,7 +11,6 @@ const verbs = [
     "schmooze",
     "poke",
     "discard",
-    "buckle",
     "disrupt",
     "invade",
     "disassemble",

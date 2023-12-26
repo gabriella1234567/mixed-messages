@@ -28,4 +28,4 @@ const verbs = [
     "deconstruct"
 ]
 
-module.exports = verbs;
+export default verbs;

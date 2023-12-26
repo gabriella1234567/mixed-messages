@@ -99,4 +99,4 @@ const adverbs = [
   "crazily",
   "blindly",
 ];
-module.exports = adverbs;
+export default adverbs;

@@ -1,7 +1,7 @@
-const adjectives = require("./words/adjectives");
-const adverbs = require("./words/adverbs");
-const nouns = require("./words/nouns");
-const verbs = require("./words/verbs");
+import adjectives from "./words/adjectives.js";
+import adverbs from "./words/adverbs.js";
+import nouns from "./words/nouns.js";
+import verbs from "./words/verbs.js";
 
 const generateSentence = () => {
   let randomAdj = adjectives[Math.floor(Math.random() * adjectives.length)];
@@ -11,4 +11,5 @@ const generateSentence = () => {
   return `I want to ${randomAdverb} ${randomVerb} you, you ${randomAdj} ${randomNoun}`;
 };
 
+export default generateSentence;
 console.log(generateSentence());

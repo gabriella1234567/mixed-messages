@@ -20,6 +20,10 @@ const nouns = [
   "potato",
   "pickle",
   "noodle",
+  "bagel",
+  "pot",
+  "carrot",
+  "banana",
   "button",
   "snorkel",
   "kumquat",
@@ -31,7 +35,9 @@ const nouns = [
   "stick",
   "armadillo",
   "pencil",
-  "barnacle"
+  "barnacle",
+  "candle",
+  "chair",
 ];
 
-module.exports = nouns;
+export default nouns;

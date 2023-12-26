@@ -23,7 +23,13 @@ const adjectives = [
     "homemade",
     "bubbly",
     "mismatched",
-    "sparse"
+    "sparse",
+    "dense",
+    "smooth",
+    "squeaky",
+    "smelly",
+    "sour",
+    "sour-tasting"
 ]
 
-module.exports = adjectives;
+export default adjectives;

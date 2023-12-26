@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+  font-family: faniste;
+  src: url(/styles/fonts/fanlste/fanlste.otf)
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url(/styles/fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf)
+}
+
+body {
+  margin: 1rem;
+  padding: 0;
+  background: linear-gradient(235deg, #BABC4A 0%, #000000 100%), linear-gradient(235deg, #0026AC 0%, #282534 100%), linear-gradient(235deg, #00FFD1 0%, #000000 100%), radial-gradient(120% 185% at 25% -25%, #EEEEEE 0%, #EEEEEE 40%, #7971EA calc(40% + 1px), #7971EA 50%, #393E46 calc(50% + 1px), #393E46 70%, #222831 calc(70% + 1px), #222831 100%), radial-gradient(70% 140% at 90% 10%, #F5F5C6 0%, #F5F5C6 30%, #7DA87B calc(30% + 1px), #7DA87B 60%, #326765 calc(60% + 1px), #326765 80%, #27253D calc(80% + 1px), #27253D 100%);
+background-blend-mode: overlay, lighten, overlay, color-burn, normal;
+background-repeat: no-repeat;
+background-size: auto;
+height: 100vh;
+}
+
+h1 {
+  font-family: faniste;
+  font-size: 5rem;
+  padding: 1rem;
+  letter-spacing: 0.3rem;
+  color: #d1e0be;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.insult {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 80%;
+  margin: 1rem;
+  background-color: #effae1;
+}
+
+p {
+  margin: 0;
+  padding: 1rem;
+  font-family: 'Red Hat Display';
+  font-size: 1.2rem;
+}
+ 
+button {
+    padding: 1rem;
+    margin: 1rem;
+    font-family: 'Red Hat Display';
+    font-size: 1.2rem;
+}

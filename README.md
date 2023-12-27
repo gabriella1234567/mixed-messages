@@ -52,3 +52,9 @@ Minimal viable product state has been achieved and can be viewed live at the pro
 - [x] Generate two sentences
 - [ ] Advanced CSS
 - [x] Site is responsive and works on all devices
+
+## Assets
+- MVP version background: https://codioful.com/abstract-leafs
+- Fonts
+    - https://www.dafont.com/fanlste.font
+    - https://fonts.google.com/specimen/Red+Hat+Display?classification=Display

@@ -38,6 +38,16 @@ section {
   justify-content: center;
 }
 
+.animal-container {
+  position: relative;
+  margin: auto;
+  display: block;
+  background-color: #fff;
+  width: 500px;
+  height: 500px;
+}
+
+
 .insult {
   display: flex;
   flex-direction: column;
@@ -47,6 +57,15 @@ section {
   width: 80%;
   margin: 1rem;
   background-color: #effae1;
+}
+
+.eye {
+  animation: blink 2.5s infinite;
+}
+
+.mouthOpen {
+  ry: 10;
+
 }
 
 p {
@@ -68,6 +87,22 @@ button {
 button:hover {
   background-color:#89b685;
   cursor: pointer;
+}
+
+@keyframes blink {
+  0% {
+    ry: 0.5%;
+  }
+
+  9% {
+    ry: 2%;
+  }
+
+  10% {
+    ry: 3%;
+  }
+  
+
 }
 
 @media screen and (max-width: 1000px) {
